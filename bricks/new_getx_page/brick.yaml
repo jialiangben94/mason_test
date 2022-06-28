@@ -36,3 +36,8 @@ vars:
     description: Route name
     default: /profile
     prompt: What is your route name?
+  required_binding:
+    type: boolean
+    description: Do you required binding file?
+    default: true
+    prompt: Do you required binding file?
